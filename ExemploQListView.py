@@ -120,7 +120,7 @@ class FiestraPrincipal(QMainWindow):
         elif prezoTotal == "":
             self.prezoTotal.setText("PREXO NO VACÍO")
         else:
-            self.datos.append([codigoTexto,  artigo, precioUnitario, cantidade, ive, prezoTotal])
+            self.datos.append([codigoTexto,  artigo, cantidade, precioUnitario, ive, prezoTotal])
             self.codigoProduto.addItem(codigoTexto)
 
             self.artigo.clear()
